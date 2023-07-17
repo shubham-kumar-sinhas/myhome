@@ -11,10 +11,14 @@ const About = ({ updatecurentpage }) => {
 
       <div className="profile-Name">Shubham Kumar Sinha</div>
       <div>
-        <p>Front-end developer using React. Currently navigating a pandemic.</p>
+        <p>
+          From Data Science to Marketing, and
+          Now Crafting Code!
+        </p>
       </div>
-      <div className="pages">
+      <div>
         <a
+          className="pages"
           onClick={() => updatecurentpage(true)}
           style={{
             textDecoration: updatecurentpage  === true ? "underline" : "",
@@ -23,8 +27,9 @@ const About = ({ updatecurentpage }) => {
           Bio
         </a>
       </div>
-      <div  className="pages">
+      <div>
         <a
+          className="pages"
           onClick={() => updatecurentpage()}
           style={{
             textDecoration: updatecurentpage === true ? "underline" : "",
@@ -36,25 +41,27 @@ const About = ({ updatecurentpage }) => {
       <div className="row">
         <div className="social-icon">
           <div className="social-icon">
-            <a href="https://twitter.com/perfectkode" target="_blank">
+            <a className="social-icon" href="https://github.com/shubham-kumar-sinhas" target="_blank">
               <BsGithub />
             </a>
-          </div>          
+          </div>
           <div className="social-icon">
-            <a
-              href="https://www.linkedin.com/company/perfectkode/"
+            <a className="social-icon"
+              href="https://www.linkedin.com/in/Shubham-kumar-sinha/"
               target="_blank"
             >
               <BsLinkedin />
             </a>
           </div>
           <div className="social-icon">
-            <a href="https://twitter.com/perfectkode" target="_blank">
+            <a className="social-icon"
+            href="https://www.twitter.com/Shubham5inha" target="_blank">
               <BsTwitter />
             </a>
           </div>
           <div className="social-icon">
-            <a href="https://www.instagram.com/perfectkode/" target="_blank">
+            <a className="social-icon"
+            href="https://www.instagram.com/Shubham5inha/" target="_blank">
               <BsInstagram />
             </a>
           </div>

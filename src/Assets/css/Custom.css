@@ -1,41 +1,67 @@
-.home-page{
-    margin-top: 50px;
+.home-page {
+  margin-top: 50px;
 }
 
-.profile-img{
-    border-radius: 40%;
-    height: 80px;
+.profile-img {
+  border-radius: 50%;
+  height: 80px;
 }
 
-.profile-Name{
-    padding-top: 20px;
-    padding-bottom: 10px;
-    color: #d89a4a;
-    cursor: pointer;
-    font-size: 1.125rem;
-    font-weight: 600;
-    line-height: 1.82813rem;
+.profile-Name {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #d89a4a;
+  cursor: pointer;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.82813rem;
 }
 
-.social-icon{
-    display: flex;
-    margin: 5px;    
-    margin-top: 5%;
+.social-icon {
+  display: flex;
+  margin: 5px;
+  margin-top: 5%;
+  color: black;
 }
-.social-icon a{
-    padding: 7px;
+.social-icon a {
+  padding: 7px;
 }
-.social-icon a:hover img{
-    transition: all 0.5s;
+.social-icon a:hover img {
+  transition: all 0.5s;
 }
 
 .pages {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.pages :hover{
-    color: blue;
-    /* background-color: aqua; */
-    text-decoration: underline;
+.pages :hover {
+  color: rgb(69, 245, 34);
+  text-decoration: underline;
 }
 
+.Copyright {
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(188, 185, 185);
+  font-family: Poppins;
+  font-size: 13px;
+  margin-top: -0.5% !important;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.blog-margin-top{
+  margin-top: 30px;
+}
+
+.backbutton{
+  color: #d89a4a;
+  font-size: 40px;
+}
+
+.textAlign{
+  text-align: justify;
+}

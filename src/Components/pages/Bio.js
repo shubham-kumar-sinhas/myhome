@@ -5,12 +5,12 @@ const Bio = () => {
     <>
     <h2>Bio</h2>
     <div>
-    <p>Hi there!</p>
-    <p>I’m Nina, and I’m a front-end developer specialising in React.</p>
-    <p>I lean towards projects that are centered around people and are socially conscientious.</p>
-    <p>People are the most important part about working on a project, whether that be the team I’m working with or a client I’m building for. I aim to make projects that add value and benefit to the lives of others.</p>
-   <p>As a GitNation Resident, I’m an avid tech conference attendee while also staying involved locally at meet-ups in and around my area.</p>
-    <p>When I’m not writing code, I’m usually fighting my way through virtual (and real) world pandemics, going to live music events and hanging out at my favourite independent coffee shop.</p>
+    <p>Hello there!</p>
+    <p>I'm Shubham, a front-end developer who specializes in React.</p>
+    <p> My passion lies in projects that have a people-centric focus and promote social consciousness.</p>
+    <p>For me, the most important aspect of any project is the people involved, whether it's the team I work with or the clients I build for. I strive to create projects that bring value and benefits to people's lives.</p>
+   <p>I believe in the power of community and enjoy networking and learning from fellow professionals.</p>
+    <p>When I'm not immersed in writing code, you'll often find me navigating both virtual and real-world challenges, exploring live music events, and enjoying the cozy atmosphere of my favorite coffee shop.</p>
     <p> Welcome to my small home on the web.</p>
     </div>
     </>
