@@ -1,18 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Switch, Route, BrowserRouter, Routes } from 'react-router-dom';
-import "./App.css";
-import "./Assets/css/Custom.css";
-import Home from "./Containers/home/Home";
-import Blog from "./Components/pages/Blog"
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import Downloadppt from './Components/ppt/Downloadppt';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/blog/:id" element={<Blog/>} />
+          <Route exact path="/" element={<Downloadppt/>}/>
         </Routes>
       </BrowserRouter>
     </>
